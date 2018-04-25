@@ -26,7 +26,6 @@ object ILERequests extends ServicesConfiguration {
     "Content-Type" -> "application/xml; charset=UTF-8",
     "Authorization" -> s"Bearer ${user.token}",
     "X-Client-ID" -> "6372609a-f550-11e7-8c3f-9a214cf093ae",
-    "api-subscription-fields-id" -> "jHKv4OxSi9jEP6PKWTiCNRcgYuQa",
     "X-Badge-Identifier" -> "PHL123"
   )
 

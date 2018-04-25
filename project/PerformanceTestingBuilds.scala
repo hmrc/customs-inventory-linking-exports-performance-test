@@ -25,7 +25,6 @@ object PerformanceTestingBuilds extends Build {
         "-Xmax-classfile-name", "100",
         "-encoding", "UTF-8"
       ),
-      retrieveManaged := true,
       initialCommands in console := "import uk.gov.hmrc._",
       parallelExecution in Test := false,
       publishArtifact in Test := true,

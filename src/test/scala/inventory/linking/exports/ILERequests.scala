@@ -19,7 +19,7 @@ object ILERequests extends ServicesConfiguration {
   val SubmissionId = "SubmissionId"
 
   private def headers(user: User): Map[String, String] = Map(
-    "Accept" -> "application/vnd.hmrc.1.0+xml",
+    "Accept" -> s"application/vnd.hmrc.${user.version}+xml",
     "Content-Type" -> "application/xml; charset=UTF-8",
     "Authorization" -> s"Bearer ${user.token}",
     "X-Client-ID" -> "6372609a-f550-11e7-8c3f-9a214cf093ae",

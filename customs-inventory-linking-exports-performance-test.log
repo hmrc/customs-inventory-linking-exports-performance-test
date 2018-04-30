@@ -25170,3 +25170,319 @@ HTTP response:
 13328 [GatlingSystem-akka.actor.default-dispatcher-22] DEBUG i.g.core.controller.Controller - End user #32
 13328 [GatlingSystem-akka.actor.default-dispatcher-22] DEBUG i.g.core.controller.Controller - End user #33
 13328 [GatlingSystem-akka.actor.default-dispatcher-22] DEBUG i.g.core.controller.Controller - End user #31
+655  [GatlingSystem-akka.actor.default-dispatcher-4] INFO  akka.event.slf4j.Slf4jLogger - Slf4jLogger started
+1311 [GatlingSystem-akka.actor.default-dispatcher-4] INFO  i.g.c.s.writer.ConsoleDataWriter - Initializing
+1311 [GatlingSystem-akka.actor.default-dispatcher-2] INFO  i.g.c.s.writer.LogFileDataWriter - Initializing
+1316 [GatlingSystem-akka.actor.default-dispatcher-4] INFO  i.g.c.s.writer.ConsoleDataWriter - Initialized
+1373 [GatlingSystem-akka.actor.default-dispatcher-2] INFO  i.g.c.s.writer.LogFileDataWriter - Initialized
+1412 [pool-1-thread-1] DEBUG i.n.c.MultithreadEventLoopGroup - -Dio.netty.eventLoopThreads: 16
+1433 [pool-1-thread-1] DEBUG i.n.util.internal.PlatformDependent - -Dio.netty.noUnsafe: false
+1436 [pool-1-thread-1] DEBUG i.n.u.internal.PlatformDependent0 - java.nio.Buffer.address: available
+1436 [pool-1-thread-1] DEBUG i.n.u.internal.PlatformDependent0 - sun.misc.Unsafe.theUnsafe: available
+1437 [pool-1-thread-1] DEBUG i.n.u.internal.PlatformDependent0 - sun.misc.Unsafe.copyMemory: available
+1437 [pool-1-thread-1] DEBUG i.n.u.internal.PlatformDependent0 - direct buffer constructor: available
+1438 [pool-1-thread-1] DEBUG i.n.u.internal.PlatformDependent0 - java.nio.Bits.unaligned: available, true
+1438 [pool-1-thread-1] DEBUG i.n.u.internal.PlatformDependent0 - java.nio.DirectByteBuffer.<init>(long, int): available
+1439 [pool-1-thread-1] DEBUG io.netty.util.internal.Cleaner0 - java.nio.ByteBuffer.cleaner(): available
+1441 [pool-1-thread-1] DEBUG i.n.util.internal.PlatformDependent - Java version: 8
+1441 [pool-1-thread-1] DEBUG i.n.util.internal.PlatformDependent - sun.misc.Unsafe: available
+1441 [pool-1-thread-1] DEBUG i.n.util.internal.PlatformDependent - -Dio.netty.noJavassist: false
+1616 [pool-1-thread-1] DEBUG i.n.util.internal.PlatformDependent - Javassist: available
+1616 [pool-1-thread-1] DEBUG i.n.util.internal.PlatformDependent - -Dio.netty.tmpdir: /var/folders/9s/c3w_vvt179vb_y5rfbz87fdr0000gn/T (java.io.tmpdir)
+1616 [pool-1-thread-1] DEBUG i.n.util.internal.PlatformDependent - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+1617 [pool-1-thread-1] DEBUG i.n.util.internal.PlatformDependent - -Dio.netty.noPreferDirect: false
+1617 [pool-1-thread-1] DEBUG i.n.util.internal.PlatformDependent - io.netty.maxDirectMemory: 526385152 bytes
+1633 [pool-1-thread-1] DEBUG io.netty.channel.nio.NioEventLoop - -Dio.netty.noKeySetOptimization: false
+1633 [pool-1-thread-1] DEBUG io.netty.channel.nio.NioEventLoop - -Dio.netty.selectorAutoRebuildThreshold: 512
+1637 [pool-1-thread-1] DEBUG i.n.util.internal.PlatformDependent - org.jctools-core.MpscChunkedArrayQueue: available
+1652 [pool-1-thread-1] DEBUG io.netty.util.ResourceLeakDetector - -Dio.netty.leakDetection.level: simple
+1652 [pool-1-thread-1] DEBUG io.netty.util.ResourceLeakDetector - -Dio.netty.leakDetection.maxRecords: 4
+1652 [pool-1-thread-1] DEBUG i.n.u.ResourceLeakDetectorFactory - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@263ac514
+1656 [pool-1-thread-1] DEBUG i.n.util.internal.ThreadLocalRandom - -Dio.netty.initialSeedUniquifier: 0xaf411185f1bb7cac (took 0 ms)
+1682 [pool-1-thread-1] DEBUG io.netty.handler.ssl.JdkSslContext - Default protocols (JDK): [TLSv1.2, TLSv1.1, TLSv1] 
+1682 [pool-1-thread-1] DEBUG io.netty.handler.ssl.JdkSslContext - Default cipher suites (JDK): [TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA]
+1755 [pool-1-thread-1] DEBUG i.n.buffer.PooledByteBufAllocator - -Dio.netty.allocator.numHeapArenas: 5
+1755 [pool-1-thread-1] DEBUG i.n.buffer.PooledByteBufAllocator - -Dio.netty.allocator.numDirectArenas: 5
+1755 [pool-1-thread-1] DEBUG i.n.buffer.PooledByteBufAllocator - -Dio.netty.allocator.pageSize: 8192
+1755 [pool-1-thread-1] DEBUG i.n.buffer.PooledByteBufAllocator - -Dio.netty.allocator.maxOrder: 11
+1755 [pool-1-thread-1] DEBUG i.n.buffer.PooledByteBufAllocator - -Dio.netty.allocator.chunkSize: 16777216
+1755 [pool-1-thread-1] DEBUG i.n.buffer.PooledByteBufAllocator - -Dio.netty.allocator.tinyCacheSize: 512
+1756 [pool-1-thread-1] DEBUG i.n.buffer.PooledByteBufAllocator - -Dio.netty.allocator.smallCacheSize: 256
+1757 [pool-1-thread-1] DEBUG i.n.buffer.PooledByteBufAllocator - -Dio.netty.allocator.normalCacheSize: 64
+1757 [pool-1-thread-1] DEBUG i.n.buffer.PooledByteBufAllocator - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+1757 [pool-1-thread-1] DEBUG i.n.buffer.PooledByteBufAllocator - -Dio.netty.allocator.cacheTrimInterval: 8192
+1757 [pool-1-thread-1] DEBUG i.n.buffer.PooledByteBufAllocator - -Dio.netty.allocator.useCacheForAllThreads: true
+1767 [pool-1-thread-1] DEBUG io.netty.buffer.ByteBufUtil - -Dio.netty.allocator.type: pooled
+1768 [pool-1-thread-1] DEBUG io.netty.buffer.ByteBufUtil - -Dio.netty.threadLocalDirectBufferSize: 65536
+1768 [pool-1-thread-1] DEBUG io.netty.buffer.ByteBufUtil - -Dio.netty.maxThreadLocalCharBufferSize: 200000
+2012 [pool-1-thread-1] INFO  io.gatling.http.ahc.HttpEngine - Start warm up
+2121 [gatling-http-thread-1-1] DEBUG io.netty.buffer.AbstractByteBuf - -Dio.netty.buffer.bytebuf.checkAccessible: true
+2121 [gatling-http-thread-1-1] DEBUG i.n.u.ResourceLeakDetectorFactory - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@128ea1a7
+2124 [gatling-http-thread-1-1] DEBUG i.n.u.i.JavassistTypeParameterMatcherGenerator - Generated: io.netty.util.internal.__matchers__.io.netty.handler.codec.http.HttpObjectMatcher
+2153 [gatling-http-thread-1-1] DEBUG o.a.n.channel.NettyConnectListener - Using new Channel '[id: 0x1aaa8a9c, L:/192.168.0.4:56948 - R:gatling.io/52.47.152.183:80]' for 'GET' to '/'
+2156 [gatling-http-thread-1-1] DEBUG io.netty.util.Recycler - -Dio.netty.recycler.maxCapacity.default: 32768
+2157 [gatling-http-thread-1-1] DEBUG io.netty.util.Recycler - -Dio.netty.recycler.maxSharedCapacityFactor: 2
+2157 [gatling-http-thread-1-1] DEBUG io.netty.util.Recycler - -Dio.netty.recycler.linkCapacity: 16
+2157 [gatling-http-thread-1-1] DEBUG io.netty.util.Recycler - -Dio.netty.recycler.ratio: 8
+2192 [gatling-http-thread-1-1] DEBUG o.a.netty.handler.HttpHandler - 
+
+Request DefaultFullHttpRequest(decodeResult: success, version: HTTP/1.1, content: EmptyByteBufBE)
+GET / HTTP/1.1
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip
+Connection: keep-alive
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.8; rv:16.0) Gecko/20100101 Firefox/16.0
+Host: gatling.io
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 301 Moved Permanently
+Server: nginx/1.12.1
+Date: Mon, 30 Apr 2018 12:04:24 GMT
+Content-Type: text/html
+Content-Length: 185
+Connection: keep-alive
+Location: https://gatling.io/
+
+2195 [gatling-http-thread-1-1] DEBUG o.a.netty.channel.ChannelManager - Adding key: http://gatling.io:80 for channel [id: 0x1aaa8a9c, L:/192.168.0.4:56948 - R:gatling.io/52.47.152.183:80]
+2197 [pool-1-thread-1] INFO  io.gatling.http.ahc.HttpEngine - Warm up done
+2302 [GatlingSystem-akka.actor.default-dispatcher-2] DEBUG i.g.core.controller.inject.Injector - Start user #1
+2304 [GatlingSystem-akka.actor.default-dispatcher-2] DEBUG i.g.core.controller.inject.Injector - Start user #2
+2304 [GatlingSystem-akka.actor.default-dispatcher-2] DEBUG i.g.core.controller.inject.Injector - Start user #3
+2305 [GatlingSystem-akka.actor.default-dispatcher-2] DEBUG i.g.core.controller.inject.Injector - Start user #4
+2305 [GatlingSystem-akka.actor.default-dispatcher-2] DEBUG i.g.core.controller.inject.Injector - Start user #5
+2305 [GatlingSystem-akka.actor.default-dispatcher-2] DEBUG i.g.core.controller.inject.Injector - Start user #6
+2307 [GatlingSystem-akka.actor.default-dispatcher-2] DEBUG i.g.core.controller.inject.Injector - Injecting 6 users, continue=false
+2308 [GatlingSystem-akka.actor.default-dispatcher-17] INFO  i.g.core.controller.Controller - InjectionStopped expectedCount=6
+2352 [GatlingSystem-akka.actor.default-dispatcher-6] DEBUG io.gatling.http.action.sync.HttpTx$ - Sending request=Submit Movement uri=http://localhost:9823/: scenario=Submit Csp 1.0 exports movement, userId=3
+2352 [GatlingSystem-akka.actor.default-dispatcher-5] DEBUG io.gatling.http.action.sync.HttpTx$ - Sending request=Submit Consolidation uri=http://localhost:9823/: scenario=Submit NonCsp 1.0 exports consolidation, userId=2
+2352 [GatlingSystem-akka.actor.default-dispatcher-4] DEBUG io.gatling.http.action.sync.HttpTx$ - Sending request=Submit Movement uri=http://localhost:9823/: scenario=Submit NonCsp 1.0 exports movement, userId=1
+2352 [GatlingSystem-akka.actor.default-dispatcher-11] DEBUG io.gatling.http.action.sync.HttpTx$ - Sending request=Submit Consolidation uri=http://localhost:9823/: scenario=Submit Csp 1.0 exports consolidation, userId=4
+2352 [GatlingSystem-akka.actor.default-dispatcher-16] DEBUG io.gatling.http.action.sync.HttpTx$ - Sending request=Submit Query uri=http://localhost:9823/: scenario=Submit NonCsp 1.0 exports query, userId=6
+2352 [GatlingSystem-akka.actor.default-dispatcher-3] DEBUG io.gatling.http.action.sync.HttpTx$ - Sending request=Submit Query uri=http://localhost:9823/: scenario=Submit Csp 1.0 exports query, userId=5
+2363 [gatling-http-thread-1-2] DEBUG o.a.n.channel.NettyConnectListener - Using new Channel '[id: 0x07f6a0c6, L:/0:0:0:0:0:0:0:1:56949 - R:localhost/0:0:0:0:0:0:0:1:9823]' for 'POST' to '/'
+2363 [gatling-http-thread-1-7] DEBUG o.a.n.channel.NettyConnectListener - Using new Channel '[id: 0x25e6c290, L:/0:0:0:0:0:0:0:1:56953 - R:localhost/0:0:0:0:0:0:0:1:9823]' for 'POST' to '/'
+2363 [gatling-http-thread-1-5] DEBUG o.a.n.channel.NettyConnectListener - Using new Channel '[id: 0xf8f12a6b, L:/127.0.0.1:56951 - R:localhost/127.0.0.1:9823]' for 'POST' to '/'
+2363 [gatling-http-thread-1-3] DEBUG o.a.n.channel.NettyConnectListener - Using new Channel '[id: 0x9694dd18, L:/0:0:0:0:0:0:0:1:56950 - R:localhost/0:0:0:0:0:0:0:1:9823]' for 'POST' to '/'
+2363 [gatling-http-thread-1-4] DEBUG o.a.n.channel.NettyConnectListener - Using new Channel '[id: 0x3a238f1c, L:/0:0:0:0:0:0:0:1:56952 - R:localhost/0:0:0:0:0:0:0:1:9823]' for 'POST' to '/'
+2363 [gatling-http-thread-1-6] DEBUG o.a.n.channel.NettyConnectListener - Using new Channel '[id: 0xabbae170, L:/0:0:0:0:0:0:0:1:56954 - R:localhost/0:0:0:0:0:0:0:1:9823]' for 'POST' to '/'
+2604 [gatling-http-thread-1-7] DEBUG o.a.netty.handler.HttpHandler - 
+
+Request DefaultFullHttpRequest(decodeResult: success, version: HTTP/1.1, content: UnpooledHeapByteBuf(freed))
+POST / HTTP/1.1
+X-Client-ID: 6372609a-f550-11e7-8c3f-9a214cf093ae
+True-Client-IP: 912890355
+X-Badge-Identifier: PHL123
+Connection: close
+Accept: application/vnd.hmrc.1.0+xml
+Content-Type: application/xml; charset=UTF-8
+Accept-Language: en-gb,en;q=0.5
+Authorization: Bearer CSP
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:25.0) Gecko/20100101 Firefox/25.0
+Content-Length: 1078
+Host: localhost:9823
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 202 Accepted
+Cache-Control: no-cache,no-store,max-age=0
+X-Conversation-ID: 425340d4-43e1-43fa-9431-66657e872b92
+Content-Length: 0
+Content-Type: application/xml
+Connection: close
+Date: Mon, 30 Apr 2018 12:04:24 GMT
+
+2604 [gatling-http-thread-1-7] DEBUG o.a.netty.channel.ChannelManager - Closing Channel [id: 0x25e6c290, L:/0:0:0:0:0:0:0:1:56953 - R:localhost/0:0:0:0:0:0:0:1:9823] 
+2626 [gatling-http-thread-1-7] DEBUG io.gatling.core.action.Exit - End user #3
+2628 [GatlingSystem-akka.actor.default-dispatcher-6] DEBUG i.g.core.controller.Controller - End user #3
+2628 [gatling-http-thread-1-7] DEBUG o.a.netty.handler.HttpHandler - Channel Closed: [id: 0x25e6c290, L:/0:0:0:0:0:0:0:1:56953 ! R:localhost/0:0:0:0:0:0:0:1:9823] with attribute INSTANCE
+2740 [pool-2-thread-1] DEBUG o.a.n.channel.DefaultChannelPool - Entry count for : http://gatling.io:80 : 1
+2741 [pool-2-thread-1] DEBUG o.a.n.channel.DefaultChannelPool - Closed 0 connections out of 1 in 1 ms
+3125 [gatling-http-thread-1-2] DEBUG o.a.netty.handler.HttpHandler - 
+
+Request DefaultFullHttpRequest(decodeResult: success, version: HTTP/1.1, content: UnpooledHeapByteBuf(freed))
+POST / HTTP/1.1
+X-Client-ID: 6372609a-f550-11e7-8c3f-9a214cf093ae
+True-Client-IP: 1373523197
+X-Badge-Identifier: PHL123
+Connection: close
+Accept: application/vnd.hmrc.1.0+xml
+Content-Type: application/xml; charset=UTF-8
+Accept-Language: en-gb,en;q=0.5
+Authorization: Bearer Non CSP
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:25.0) Gecko/20100101 Firefox/25.0
+Content-Length: 1078
+Host: localhost:9823
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 202 Accepted
+Cache-Control: no-cache,no-store,max-age=0
+X-Conversation-ID: 3807e1fa-dc02-479f-b372-e8cdb27150dc
+Content-Length: 0
+Content-Type: application/xml
+Connection: close
+Date: Mon, 30 Apr 2018 12:04:24 GMT
+
+3126 [gatling-http-thread-1-2] DEBUG o.a.netty.channel.ChannelManager - Closing Channel [id: 0x07f6a0c6, L:/0:0:0:0:0:0:0:1:56949 - R:localhost/0:0:0:0:0:0:0:1:9823] 
+3126 [gatling-http-thread-1-2] DEBUG io.gatling.core.action.Exit - End user #1
+3127 [GatlingSystem-akka.actor.default-dispatcher-5] DEBUG i.g.core.controller.Controller - End user #1
+3127 [gatling-http-thread-1-2] DEBUG o.a.netty.handler.HttpHandler - Channel Closed: [id: 0x07f6a0c6, L:/0:0:0:0:0:0:0:1:56949 ! R:localhost/0:0:0:0:0:0:0:1:9823] with attribute INSTANCE
+3748 [pool-2-thread-1] DEBUG o.a.n.channel.DefaultChannelPool - Entry count for : http://gatling.io:80 : 1
+3748 [pool-2-thread-1] DEBUG o.a.n.channel.DefaultChannelPool - Closed 0 connections out of 1 in 0 ms
+4759 [pool-2-thread-1] DEBUG o.a.n.channel.DefaultChannelPool - Entry count for : http://gatling.io:80 : 1
+4760 [pool-2-thread-1] DEBUG o.a.n.channel.DefaultChannelPool - Closed 0 connections out of 1 in 0 ms
+4867 [gatling-http-thread-1-4] DEBUG o.a.netty.handler.HttpHandler - 
+
+Request DefaultFullHttpRequest(decodeResult: success, version: HTTP/1.1, content: UnpooledHeapByteBuf(freed))
+POST / HTTP/1.1
+X-Client-ID: 6372609a-f550-11e7-8c3f-9a214cf093ae
+True-Client-IP: 1598270998
+X-Badge-Identifier: PHL123
+Connection: close
+Accept: application/vnd.hmrc.1.0+xml
+Content-Type: application/xml; charset=UTF-8
+Accept-Language: en-gb,en;q=0.5
+Authorization: Bearer CSP
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:25.0) Gecko/20100101 Firefox/25.0
+Content-Length: 413
+Host: localhost:9823
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 202 Accepted
+Cache-Control: no-cache,no-store,max-age=0
+X-Conversation-ID: 6b9da007-2bd5-40d3-a801-dd134a76a8ef
+Content-Length: 0
+Content-Type: application/xml
+Connection: close
+Date: Mon, 30 Apr 2018 12:04:26 GMT
+
+4867 [gatling-http-thread-1-4] DEBUG o.a.netty.channel.ChannelManager - Closing Channel [id: 0x3a238f1c, L:/0:0:0:0:0:0:0:1:56952 - R:localhost/0:0:0:0:0:0:0:1:9823] 
+4868 [gatling-http-thread-1-4] DEBUG io.gatling.core.action.Exit - End user #5
+4868 [GatlingSystem-akka.actor.default-dispatcher-6] DEBUG i.g.core.controller.Controller - End user #5
+4868 [gatling-http-thread-1-4] DEBUG o.a.netty.handler.HttpHandler - Channel Closed: [id: 0x3a238f1c, L:/0:0:0:0:0:0:0:1:56952 ! R:localhost/0:0:0:0:0:0:0:1:9823] with attribute INSTANCE
+5426 [gatling-http-thread-1-5] DEBUG o.a.netty.handler.HttpHandler - 
+
+Request DefaultFullHttpRequest(decodeResult: success, version: HTTP/1.1, content: UnpooledHeapByteBuf(freed))
+POST / HTTP/1.1
+X-Client-ID: 6372609a-f550-11e7-8c3f-9a214cf093ae
+True-Client-IP: 847251846
+X-Badge-Identifier: PHL123
+Connection: close
+Accept: application/vnd.hmrc.1.0+xml
+Content-Type: application/xml; charset=UTF-8
+Accept-Language: en-gb,en;q=0.5
+Authorization: Bearer Non CSP
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:25.0) Gecko/20100101 Firefox/25.0
+Content-Length: 413
+Host: localhost:9823
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 202 Accepted
+Cache-Control: no-cache,no-store,max-age=0
+X-Conversation-ID: 2f255ace-016a-459f-bed0-c1a86c52580b
+Content-Length: 0
+Content-Type: application/xml
+Connection: close
+Date: Mon, 30 Apr 2018 12:04:27 GMT
+
+5426 [gatling-http-thread-1-5] DEBUG o.a.netty.channel.ChannelManager - Closing Channel [id: 0xf8f12a6b, L:/127.0.0.1:56951 - R:localhost/127.0.0.1:9823] 
+5427 [gatling-http-thread-1-5] DEBUG io.gatling.core.action.Exit - End user #6
+5427 [GatlingSystem-akka.actor.default-dispatcher-5] DEBUG i.g.core.controller.Controller - End user #6
+5427 [gatling-http-thread-1-5] DEBUG o.a.netty.handler.HttpHandler - Channel Closed: [id: 0xf8f12a6b, L:/127.0.0.1:56951 ! R:localhost/127.0.0.1:9823] with attribute INSTANCE
+5539 [gatling-http-thread-1-3] DEBUG o.a.netty.handler.HttpHandler - 
+
+Request DefaultFullHttpRequest(decodeResult: success, version: HTTP/1.1, content: UnpooledHeapByteBuf(freed))
+POST / HTTP/1.1
+X-Client-ID: 6372609a-f550-11e7-8c3f-9a214cf093ae
+True-Client-IP: 1991114660
+X-Badge-Identifier: PHL123
+Connection: close
+Accept: application/vnd.hmrc.1.0+xml
+Content-Type: application/xml; charset=UTF-8
+Accept-Language: en-gb,en;q=0.5
+Authorization: Bearer CSP
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:25.0) Gecko/20100101 Firefox/25.0
+Content-Length: 404
+Host: localhost:9823
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 202 Accepted
+Cache-Control: no-cache,no-store,max-age=0
+X-Conversation-ID: 99c29406-27ce-4dbf-955b-e5d850460901
+Content-Length: 0
+Content-Type: application/xml
+Connection: close
+Date: Mon, 30 Apr 2018 12:04:27 GMT
+
+5539 [gatling-http-thread-1-3] DEBUG o.a.netty.channel.ChannelManager - Closing Channel [id: 0x9694dd18, L:/0:0:0:0:0:0:0:1:56950 - R:localhost/0:0:0:0:0:0:0:1:9823] 
+5539 [gatling-http-thread-1-3] DEBUG io.gatling.core.action.Exit - End user #4
+5540 [GatlingSystem-akka.actor.default-dispatcher-6] DEBUG i.g.core.controller.Controller - End user #4
+5540 [gatling-http-thread-1-3] DEBUG o.a.netty.handler.HttpHandler - Channel Closed: [id: 0x9694dd18, L:/0:0:0:0:0:0:0:1:56950 ! R:localhost/0:0:0:0:0:0:0:1:9823] with attribute INSTANCE
+5768 [pool-2-thread-1] DEBUG o.a.n.channel.DefaultChannelPool - Entry count for : http://gatling.io:80 : 1
+5768 [pool-2-thread-1] DEBUG o.a.n.channel.DefaultChannelPool - Closed 0 connections out of 1 in 0 ms
+6154 [gatling-http-thread-1-6] DEBUG o.a.netty.handler.HttpHandler - 
+
+Request DefaultFullHttpRequest(decodeResult: success, version: HTTP/1.1, content: UnpooledHeapByteBuf(freed))
+POST / HTTP/1.1
+X-Client-ID: 6372609a-f550-11e7-8c3f-9a214cf093ae
+True-Client-IP: 1832285689
+X-Badge-Identifier: PHL123
+Connection: close
+Accept: application/vnd.hmrc.1.0+xml
+Content-Type: application/xml; charset=UTF-8
+Accept-Language: en-gb,en;q=0.5
+Authorization: Bearer Non CSP
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:25.0) Gecko/20100101 Firefox/25.0
+Content-Length: 404
+Host: localhost:9823
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 202 Accepted
+Cache-Control: no-cache,no-store,max-age=0
+X-Conversation-ID: 3430c90f-874c-4b9a-866d-1af1cfd4cce4
+Content-Length: 0
+Content-Type: application/xml
+Connection: close
+Date: Mon, 30 Apr 2018 12:04:27 GMT
+
+6154 [gatling-http-thread-1-6] DEBUG o.a.netty.channel.ChannelManager - Closing Channel [id: 0xabbae170, L:/0:0:0:0:0:0:0:1:56954 - R:localhost/0:0:0:0:0:0:0:1:9823] 
+6155 [gatling-http-thread-1-6] DEBUG io.gatling.core.action.Exit - End user #2
+6155 [GatlingSystem-akka.actor.default-dispatcher-6] DEBUG i.g.core.controller.Controller - End user #2
+6155 [GatlingSystem-akka.actor.default-dispatcher-6] INFO  i.g.core.controller.Controller - All users are stopped
+6155 [gatling-http-thread-1-6] DEBUG o.a.netty.handler.HttpHandler - Channel Closed: [id: 0xabbae170, L:/0:0:0:0:0:0:0:1:56954 ! R:localhost/0:0:0:0:0:0:0:1:9823] with attribute INSTANCE
+6167 [GatlingSystem-akka.actor.default-dispatcher-4] INFO  i.g.core.controller.Controller - StatsEngineStopped
+6203 [gatling-http-thread-1-6] DEBUG io.netty.buffer.PoolThreadCache - Freed 4 thread-local buffer(s) from thread: gatling-http-thread-1-6
+6204 [gatling-http-thread-1-1] DEBUG io.netty.buffer.PoolThreadCache - Freed 3 thread-local buffer(s) from thread: gatling-http-thread-1-1
+6205 [gatling-http-thread-1-5] DEBUG io.netty.buffer.PoolThreadCache - Freed 4 thread-local buffer(s) from thread: gatling-http-thread-1-5
+6204 [gatling-http-thread-1-7] DEBUG io.netty.buffer.PoolThreadCache - Freed 4 thread-local buffer(s) from thread: gatling-http-thread-1-7
+6207 [gatling-http-thread-1-3] DEBUG io.netty.buffer.PoolThreadCache - Freed 4 thread-local buffer(s) from thread: gatling-http-thread-1-3
+6207 [gatling-http-thread-1-2] DEBUG io.netty.buffer.PoolThreadCache - Freed 4 thread-local buffer(s) from thread: gatling-http-thread-1-2
+6208 [gatling-http-thread-1-4] DEBUG io.netty.buffer.PoolThreadCache - Freed 4 thread-local buffer(s) from thread: gatling-http-thread-1-4
+6227 [pool-1-thread-1] INFO  i.g.charts.stats.LogFileReader - Collected ArrayBuffer(/Users/gaurav/Documents/HMRC/CDS/customs-inventory-linking-exports-performance-test/target/gatling/inventorylinkingexportssimulation-1525089863115/simulation.log) from inventorylinkingexportssimulation-1525089863115
+6238 [pool-1-thread-1] INFO  i.g.charts.stats.LogFileReader - First pass
+6262 [pool-1-thread-1] INFO  i.g.charts.stats.LogFileReader - First pass done: read 26 lines
+6275 [pool-1-thread-1] INFO  i.g.charts.stats.LogFileReader - Second pass
+6324 [pool-1-thread-1] INFO  i.g.charts.stats.LogFileReader - Second pass: read 26 lines
+6571 [pool-1-thread-1] DEBUG i.g.c.report.StatsReportGenerator - Use group cumulated response time stats.
+6571 [pool-1-thread-1] DEBUG i.g.c.report.StatsReportGenerator - Use group cumulated response time stats.
+6572 [pool-1-thread-1] DEBUG i.g.c.report.StatsReportGenerator - Use group cumulated response time stats.
+6574 [pool-1-thread-1] DEBUG i.g.c.report.StatsReportGenerator - Use group cumulated response time stats.
+6574 [pool-1-thread-1] DEBUG i.g.c.report.StatsReportGenerator - Use group cumulated response time stats.
+6574 [pool-1-thread-1] DEBUG i.g.c.report.StatsReportGenerator - Use group cumulated response time stats.
+6575 [pool-1-thread-1] DEBUG i.g.c.report.StatsReportGenerator - Use group cumulated response time stats.
+6575 [pool-1-thread-1] DEBUG i.g.c.report.StatsReportGenerator - Use group cumulated response time stats.
+6575 [pool-1-thread-1] DEBUG i.g.c.report.StatsReportGenerator - Use group cumulated response time stats.
+6575 [pool-1-thread-1] DEBUG i.g.c.report.StatsReportGenerator - Use group cumulated response time stats.
+6575 [pool-1-thread-1] DEBUG i.g.c.report.StatsReportGenerator - Use group cumulated response time stats.
+6575 [pool-1-thread-1] DEBUG i.g.c.report.StatsReportGenerator - Use group cumulated response time stats.
+6576 [pool-1-thread-1] DEBUG i.g.c.report.StatsReportGenerator - Use group cumulated response time stats.
+6576 [pool-1-thread-1] DEBUG i.g.c.report.StatsReportGenerator - Use group cumulated response time stats.
+6576 [pool-1-thread-1] DEBUG i.g.c.report.StatsReportGenerator - Use group cumulated response time stats.
+6576 [pool-1-thread-1] DEBUG i.g.c.report.StatsReportGenerator - Use group cumulated response time stats.
+6576 [pool-1-thread-1] DEBUG i.g.c.report.StatsReportGenerator - Use group cumulated response time stats.
+6576 [pool-1-thread-1] DEBUG i.g.c.report.StatsReportGenerator - Use group cumulated response time stats.

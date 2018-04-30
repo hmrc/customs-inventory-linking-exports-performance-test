@@ -1,9 +1,7 @@
 package inventory.linking.exports
 
 import inventory.linking.exports.ILERequests._
-import io.gatling.core.Predef._
 import uk.gov.hmrc.performance.simulation.PerformanceTestRunner
-import utility.SessionUtil._
 
 class InventoryLinkingExportsSimulation extends PerformanceTestRunner {
 

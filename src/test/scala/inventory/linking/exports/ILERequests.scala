@@ -1,11 +1,8 @@
 package inventory.linking.exports
 
 import io.gatling.core.Predef._
-import io.gatling.core.check.CheckBuilder
 import io.gatling.http.Predef._
-import io.gatling.http.check.HttpCheck
 import io.gatling.http.request.builder.HttpRequestBuilder
-import jodd.lagarto.dom.NodeSelector
 import uk.gov.hmrc.performance.conf.ServicesConfiguration
 
 object ILERequests extends ServicesConfiguration {

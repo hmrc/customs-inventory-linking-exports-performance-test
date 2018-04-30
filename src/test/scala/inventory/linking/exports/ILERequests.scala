@@ -1,11 +1,8 @@
 package inventory.linking.exports
 
 import io.gatling.core.Predef._
-import io.gatling.core.check.CheckBuilder
 import io.gatling.http.Predef._
-import io.gatling.http.check.HttpCheck
 import io.gatling.http.request.builder.HttpRequestBuilder
-import jodd.lagarto.dom.NodeSelector
 import uk.gov.hmrc.performance.conf.ServicesConfiguration
 
 object ILERequests extends ServicesConfiguration {
@@ -22,7 +19,7 @@ object ILERequests extends ServicesConfiguration {
   val SubmissionId = "SubmissionId"
 
   private def headers(user: User): Map[String, String] = Map(
-    "Accept" -> s"application/vnd.hmrc.${user.version}+xml",
+    "Accept" -> "application/vnd.hmrc.1.0+xml",
     "Content-Type" -> "application/xml; charset=UTF-8",
     "Authorization" -> s"Bearer ${user.token}",
     "X-Client-ID" -> "6372609a-f550-11e7-8c3f-9a214cf093ae",

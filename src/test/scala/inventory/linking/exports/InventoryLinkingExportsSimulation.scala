@@ -1,11 +1,9 @@
 package inventory.linking.exports
 
 import inventory.linking.exports.ILERequests._
-import io.gatling.core.Predef._
 import uk.gov.hmrc.performance.simulation.PerformanceTestRunner
-import utility.SessionUtil._
 
-class xInventoryLinkingExportsSimulation extends PerformanceTestRunner {
+class InventoryLinkingExportsSimulation extends PerformanceTestRunner {
 
   setup("submit-Csp-1-exports-movement", "Send CSP 1.0 exports movement") withRequests submitCspVersion1ExportMovement
 

@@ -23,7 +23,8 @@ object ILERequests extends ServicesConfiguration {
     "Content-Type" -> "application/xml; charset=UTF-8",
     "Authorization" -> s"Bearer ${user.token}",
     "X-Client-ID" -> "6372609a-f550-11e7-8c3f-9a214cf093ae",
-    "X-Badge-Identifier" -> "PHL123"
+    "X-Badge-Identifier" -> "PHL123",
+    "X-Submitter-Identifier" -> "GB9988776655"
   )
 
   private def submitMovement(user: User): HttpRequestBuilder = http("Submit Movement")
